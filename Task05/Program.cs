@@ -6,9 +6,17 @@
 */
 System.Console.WriteLine("Enter number: ");
 int number = Convert.ToInt32(Console.ReadLine());
+/*
 int N = -number;
-while(N < number + 1) 
+while(N <= number) 
 {
     System.Console.Write(N + " " );
     N = N + 1;
+}
+*/
+
+
+for (int i = -number; i <= number; i++)
+{
+    System.Console.Write(i + " ");
 }

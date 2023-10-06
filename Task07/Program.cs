@@ -17,3 +17,9 @@ else
     number = (number % 10);
     System.Console.WriteLine("The last digit is " + number);
 }
+
+/*
+6 : 2 = 3 целых (0)
+7 : 2 = 3 целых (1)
+123 : 10 = 12 целых (3)
+*/
