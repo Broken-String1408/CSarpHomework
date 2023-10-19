@@ -9,22 +9,30 @@
 */
 Console.Clear();
 
-
-
-System.Console.Write("Введите число: ");
-
-int numb = int.Parse(Console.ReadLine());
-
-
-
-for (int i=1; i <= numb; i++)
-
+void TableSquares(int a)
 {
+    for (int i = 1; i <= a; i++)
 
-System.Console.Write(i*i + " ");
-
-if (i % 3 == 0)
-
-System.Console.WriteLine();
-
+    {
+        System.Console.Write(i * i + " ");
+    }
 }
+int userNumber = Convert.ToInt32(Console.ReadLine());
+TableSquares(userNumber);
+    // System.Console.Write("Введите число: ");
+
+    // int numb = int.Parse(Console.ReadLine());
+
+
+
+    // for (int i = 1; i <= numb; i++)
+
+    // {
+
+    //     System.Console.Write(i * i + " ");
+
+    //     if (i % 3 == 0)
+
+    //         System.Console.WriteLine();
+
+    // }
