@@ -40,4 +40,4 @@ System.Console.WriteLine("Задай размер массива: ");
 int userSize = Convert.ToInt32(Console.ReadLine());
 
 int[] userArray = GetArray(userStart, userEnd, userSize);
-PrintArray(userArray);
+PrintArray(userArray); 

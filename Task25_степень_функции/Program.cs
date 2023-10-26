@@ -5,9 +5,9 @@
 */
 
 Console.Clear();
-System.Console.WriteLine("Задай А");
+System.Console.WriteLine("Задай А:");
 int numA = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Задай B");
+System.Console.WriteLine("Задай B:");
 int numB = Convert.ToInt32(Console.ReadLine());
 
 // void NatStep(int a, int b)
